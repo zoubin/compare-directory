@@ -1,8 +1,6 @@
 # compare-directory
 Compare contents of two directories
 
-[![npm](https://nodei.co/npm/compare-directory.png?downloads=true)](https://www.npmjs.org/package/compare-directory)
-
 [![version](https://img.shields.io/npm/v/compare-directory.svg)](https://www.npmjs.org/package/compare-directory)
 [![status](https://travis-ci.org/zoubin/compare-directory.svg?branch=master)](https://travis-ci.org/zoubin/compare-directory)
 [![dependencies](https://david-dm.org/zoubin/compare-directory.svg)](https://david-dm.org/zoubin/compare-directory)

@@ -4,8 +4,10 @@
   "description": "Compare contents of two directories",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && task-tape test/*.js | tap-summary",
-    "lint": "eslint *.js lib/**/*.js test/*.js bin/*.js"
+    "test": "npm run lint && tap test/*.js",
+    "lint": "eslint *.js 'lib/**/*.js' test/*.js bin/*.js",
+    "cov": "tap --cov test/*.js",
+    "coveralls": "COVERALLS_REPO_TOKEN=REPO_TOKEN npm run cov"
   },
   "repository": {
     "type": "git",
@@ -25,9 +27,7 @@
     "globby": "^4.0.0"
   },
   "devDependencies": {
-    "eslint": "^1.10.1",
-    "tap-summary": "^1.0.0",
-    "tape": "^4.2.0",
-    "task-tape": "^1.0.0"
+    "eslint": "^2.0.0",
+    "tap": "^5.0.0"
   }
 }

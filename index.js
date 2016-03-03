@@ -16,15 +16,18 @@ module.exports = function (t, pattern, actual, expected, normalize) {
   var normalized = actualFiles.map(normalize).sort()
   expectedFiles.sort()
 
+  var assertions = 1
   t.same(normalized, expectedFiles, 'filenames should match')
 
   var files = actualFiles
   files.forEach(function (f) {
+    ++assertions
     t.equal(
       readFile(path.resolve(actual, f)),
       readFile(path.resolve(expected, normalize(f))),
       f
     )
   })
+  return assertions
 }
 

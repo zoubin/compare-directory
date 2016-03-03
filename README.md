@@ -1,5 +1,5 @@
 # compare-directory
-Compare contents of two directories
+Compare contents of two directories.
 
 [![version](https://img.shields.io/npm/v/compare-directory.svg)](https://www.npmjs.org/package/compare-directory)
 [![status](https://travis-ci.org/zoubin/compare-directory.svg?branch=master)](https://travis-ci.org/zoubin/compare-directory)

@@ -1,6 +1,6 @@
 {
   "name": "compare-directory",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Compare contents of two directories",
   "main": "index.js",
   "scripts": {
